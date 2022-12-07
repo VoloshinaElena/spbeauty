@@ -8,6 +8,8 @@ function Addresses() {
             <div className='d-inline-flex flex-column gap-3 px-o py-4'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
                 <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
+            <div/>
+            <div className='d-flex justify-content-between flex-column gap-3 px-o py-4'></div>
                 <SecondaryButton>Добавить филиал</SecondaryButton>
             </div>
         </div>
