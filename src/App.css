@@ -1,1 +1,15 @@
 /* Временные стили добавлять здесь */
+
+.border-addresses {
+    width: 453px;
+    border: solid 1px;
+    border-radius: 8px;
+    border-color:rgba(100,104,139,12%)
+}
+
+.caption-rg {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  
