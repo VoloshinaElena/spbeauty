@@ -12,10 +12,14 @@ function SecondaryButton(props) {
         min-width: ${minWidth};
         color: #64748B;
         &:hover {
-            background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+            background: rgba(255,255,255,80%);
+            color: rgba(100,116,139,80%);
+            border: 1px solid rgba(100,116,139,80%);
         }
         &:active {
-            background: #DFDFDF;
+            background: rgba(255,255,255,60%);
+            color: rgba(100,116,139,60%);
+            border: 1px solid rgba(100,116,139,60%);
         }
     `;
     return (

@@ -14,10 +14,12 @@ function PrimaryButton(props) {
         min-width: ${minWidth};
         color: white;
         &:hover {
-            background: linear-gradient(180deg, #4D9FF0 0%, #3B82F6 80%);
+            background: rgba(59,130,246,80%);
+            color: rgba(255,255,255,80%);
         }
         &:active {
-            background: #152842;
+            background: rgba(15,23,42,60%);
+            color: rgba(255,255,255,60%);
         }
     `;
     return (
